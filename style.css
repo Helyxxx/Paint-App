@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: gainsboro;
+    overflow: hidden;
+}
+
+#canvas {
+    background-color: white;
+    border: 1px solid goldenrod;
+}
+
+#tool-box {
+    background-color: chocolate;
+    padding: .25rem;
+    width: 650px;
+    display: flex;
+}
+
+#tool-box > * {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 45px;
+    width: 45px;
+    padding: .20rem;
+    margin: .20rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+#clear {
+    margin-left: auto;
+}
