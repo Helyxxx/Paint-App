@@ -1,3 +1,3 @@
 # Paint-App
-A simple painting app using HTML Canvas
+A simple painting app using HTML Canvas and JavaScript
  
